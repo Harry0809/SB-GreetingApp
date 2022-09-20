@@ -30,7 +30,7 @@ public class GreetingController {
         }
     }
 }
-*/
+
 
     //UC2
 
@@ -39,13 +39,16 @@ public class GreetingController {
         return "Hello world";
     }
 }
-/*
-    //UC3
-    @GetMapping(value={"/get", "/get/{firstName}","/get/{firstName}/{lastName}"})
-    public String Name(@RequestParam(required = false) String firstName, @RequestParam(required = false) String lastName ){
-        return greetingService.name(firstName,lastName);
-    }
+*/
 
+
+    //UC3
+    @GetMapping(value = {"/get", "/get/{firstName}", "/get/{firstName}/{lastName}"})
+    public String Name(@RequestParam(required = false) String firstName, @RequestParam(required = false) String lastName) {
+        return greetingService.name(firstName, lastName);
+    }
+}
+/*
     //UC4
 
     @PostMapping("/save")
