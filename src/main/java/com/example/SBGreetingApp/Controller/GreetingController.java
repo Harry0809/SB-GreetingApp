@@ -70,8 +70,8 @@ public class GreetingController {
 
 }
 
-     */
 
+*/
 
     //UC6
 
@@ -84,12 +84,13 @@ public class GreetingController {
 }
 
 /*
-        //UC7
+    //UC7
     @PutMapping("/edit")
-    public GreetingUser edit(@RequestBody GreetingUser greetingUser){
+    public GreetingUser edit(@RequestBody GreetingUser greetingUser) {
         return greetingService.update(greetingUser);
     }
-
+}
+    /*
     //UC8
 
     @DeleteMapping("/user/{id}")
