@@ -16,6 +16,7 @@ public class GreetingController {
     @Autowired
     GreetingService greetingService;
 
+    /*
     //UC1
 
     @RestController
@@ -29,15 +30,16 @@ public class GreetingController {
         }
     }
 }
+*/
 
-    /*
     //UC2
 
     @GetMapping("/message")
     public String get() {
         return "Hello world";
     }
-
+}
+/*
     //UC3
     @GetMapping(value={"/get", "/get/{firstName}","/get/{firstName}/{lastName}"})
     public String Name(@RequestParam(required = false) String firstName, @RequestParam(required = false) String lastName ){
