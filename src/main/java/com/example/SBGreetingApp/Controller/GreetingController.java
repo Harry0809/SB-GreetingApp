@@ -48,7 +48,7 @@ public class GreetingController {
         return greetingService.name(firstName, lastName);
     }
 }
-     */
+
 
     //UC4
 
@@ -57,16 +57,20 @@ public class GreetingController {
         return greetingService.save(user);
     }
 }
+     */
 
 
-/*
     //UC5
 
     @GetMapping("/get/{id}")
-    public Optional<GreetingUser>getById(@PathVariable int id){
-        Optional<GreetingUser> result= greetingService.getById(id);
+    public Optional<GreetingUser> getById(@PathVariable int id) {
+        Optional<GreetingUser> result = greetingService.getById(id);
         return result;
     }
+
+}
+
+/*
 
     //UC6
 
