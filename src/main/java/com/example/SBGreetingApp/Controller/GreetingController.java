@@ -39,7 +39,7 @@ public class GreetingController {
         return "Hello world";
     }
 }
-*/
+
 
 
     //UC3
@@ -48,14 +48,18 @@ public class GreetingController {
         return greetingService.name(firstName, lastName);
     }
 }
-/*
+     */
+
     //UC4
 
     @PostMapping("/save")
     public GreetingUser add(@RequestBody GreetingUser user) {
         return greetingService.save(user);
     }
+}
 
+
+/*
     //UC5
 
     @GetMapping("/get/{id}")
