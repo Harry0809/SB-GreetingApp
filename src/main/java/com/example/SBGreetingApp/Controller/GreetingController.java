@@ -71,7 +71,7 @@ public class GreetingController {
 }
 
 
-*/
+
 
     //UC6
 
@@ -82,8 +82,9 @@ public class GreetingController {
     }
 
 }
+*/
 
-/*
+
     //UC7
     @PutMapping("/edit")
     public GreetingUser edit(@RequestBody GreetingUser greetingUser) {
