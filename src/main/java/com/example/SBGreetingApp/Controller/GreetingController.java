@@ -84,15 +84,15 @@ public class GreetingController {
 }
 */
 
-
+/*
     //UC7
     @PutMapping("/edit")
     public GreetingUser edit(@RequestBody GreetingUser greetingUser) {
         return greetingService.update(greetingUser);
     }
 }
-    /*
-    //UC8
+*/
+        //UC8
 
     @DeleteMapping("/user/{id}")
     public String delete(@PathVariable long id){
@@ -102,5 +102,4 @@ public class GreetingController {
     }
 }
 
-*/
 
