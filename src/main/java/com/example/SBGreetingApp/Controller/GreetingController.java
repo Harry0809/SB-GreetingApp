@@ -57,7 +57,7 @@ public class GreetingController {
         return greetingService.save(user);
     }
 }
-     */
+
 
 
     //UC5
@@ -70,16 +70,20 @@ public class GreetingController {
 
 }
 
-/*
+     */
+
 
     //UC6
 
     @GetMapping("/list")
-    public List<GreetingUser> list(){
-        List<GreetingUser> result= greetingService.listAll();
-            return result;
-        }
+    public List<GreetingUser> list() {
+        List<GreetingUser> result = greetingService.listAll();
+        return result;
+    }
 
+}
+
+/*
         //UC7
     @PutMapping("/edit")
     public GreetingUser edit(@RequestBody GreetingUser greetingUser){
